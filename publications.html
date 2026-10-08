@@ -8,6 +8,11 @@
       name="description"
       content="Selected publications by Junbo Niu, with direct DOI links for published papers."
     />
+    <link rel="canonical" href="https://simonkingcat.github.io/publications.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Junbo Niu · Publications" />
+    <meta property="og:url" content="https://simonkingcat.github.io/publications.html" />
+    <meta property="og:description" content="AI for materials discovery, battery materials, and computational modeling at NTU." />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,27 +20,18 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20261009" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <div class="page-shell">
-      <nav class="topbar">
-        <a href="index.html" class="brand" aria-label="Junbo Niu home">JN</a>
+      <nav class="topbar" aria-label="Main navigation">
+        <a href="index.html" class="brand" aria-label="Junbo Niu home">JN<span class="brand-dot">.</span></a>
         <div class="topbar-links">
-          <a href="index.html">Home</a>
-          <a href="projects.html">Projects</a>
-          <a
-            href="https://scholar.google.com/citations?user=FhTkiQkAAAAJ&hl=en"
-            target="_blank"
-            rel="noreferrer"
-            >Scholar</a
-          >
-          <a
-            href="https://www.researchgate.net/profile/Niu-Junbo-2?ev=hdr_xprf"
-            target="_blank"
-            rel="noreferrer"
-            >ResearchGate</a
-          >
+          <a href="index.html">About</a>
+          <a href="projects.html">Research</a>
+          <a href="publications.html" aria-current="page">Publications</a>
+          <a href="mailto:junbo.niu@ntu.edu.sg">Contact <span aria-hidden="true">↗</span></a>
         </div>
       </nav>
       <header class="hero compact-hero">
@@ -43,7 +39,7 @@
           <p class="eyebrow">Publications</p>
           <h1>Published Papers</h1>
           <p class="lede">
-            Selected published papers with direct DOI links.
+            Research in energy materials, machine learning, and surface engineering.
           </p>
           <div class="hero-actions">
             <a href="index.html" class="button primary">Home</a>
@@ -55,7 +51,7 @@
               >Google Scholar</a
             >
             <a
-              href="https://www.researchgate.net/profile/Niu-Junbo-2?ev=hdr_xprf"
+              href="https://www.researchgate.net/profile/Niu-Junbo-2"
               class="button secondary"
               target="_blank"
               rel="noreferrer"
@@ -65,9 +61,18 @@
         </div>
       </header>
 
-      <main>
-        <section class="section">
-          <p class="section-tag">Publication List</p>
+      <main id="main">
+        <nav class="year-nav" aria-label="Publication years">
+          <span>Browse by year</span>
+          <a href="#year-2026">2026</a>
+          <a href="#year-2024">2024</a>
+          <a href="#year-2023">2023</a>
+          <a href="#year-2022">2022</a>
+          <a href="#commentary">Commentary</a>
+        </nav>
+        <p class="publication-note">Selected journal articles. Years follow the journal citation; online publication dates may differ.</p>
+        <section class="section year-section" id="year-2026" aria-labelledby="heading-2026">
+          <h2 id="heading-2026">2026</h2>
           <div class="publication-list">
             <article class="publication-item" id="bi2te3-2026">
               <p class="publication-meta">Nature Communications · 2026 · 7 September</p>
@@ -76,7 +81,7 @@
                 Bi<sub>2</sub>Te<sub>3</sub> film thermoelectric generators
               </h3>
               <p class="publication-authors">
-                Jitao Niu, Xingyan Dong, Yu-Ke Zhu, Junbo Niu, Ming Liu,
+                Jitao Niu, Xingyan Dong, Yu-Ke Zhu, <strong>Junbo Niu</strong>, Ming Liu,
                 Ding Luo, Le Zhang, Zhengfengyi Du, Yuxiang Gong, Muchun Guo,
                 Zhentao Guo, Pengyuan Zhang, Hongrui Ma, Mingdi Lan,
                 Fengkai Guo, Zihang Liu, and Jiehe Sui.
@@ -90,15 +95,56 @@
                 >
               </div>
             </article>
-            <article class="publication-item">
+            <article class="publication-item" id="eutectic-2026">
+              <p class="publication-meta">Advanced Functional Materials · 2026</p>
+              <h3><a href="https://doi.org/10.1002/adfm.75378" target="_blank" rel="noreferrer">Low-Concentration Eutectic Electrolyte Enables Four-Electron Zinc-Iodine Batteries</a></h3>
+              <p class="publication-authors">Dongmin Ma, Pingge He, Xinxin Cai, Xueying Zhang, Huiquan Zhang, Jingchen Tao, Zhengchunyu Zhang, <strong>Junbo Niu</strong>, Shenglin Xiong, and Weixing Song.</p>
+              <div class="paper-links">
+                <span class="research-tag">Battery electrolytes</span>
+                <a href="https://doi.org/10.1002/adfm.75378" target="_blank" rel="noreferrer" aria-label="Read Advanced Functional Materials paper">Read paper <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="publication-item" id="zinc-iodine-2026">
+              <p class="publication-meta">Chemical Science · 2026</p>
+              <h3><a href="https://doi.org/10.1039/D6SC00182C" target="_blank" rel="noreferrer">A dual-function molecule enables stable four-electron conversion and Zn deposition for high-capacity aqueous Zn–I<sub>2</sub> batteries</a></h3>
+              <p class="publication-authors">Huiquan Zhang, Xueying Zhang, Dongmin Ma, Xinxin Cai, Mochi Lv, Hongting Yan, <strong>Junbo Niu</strong>, and Weixing Song.</p>
+              <div class="paper-links">
+                <span class="research-tag">Battery interfaces</span>
+                <a href="https://doi.org/10.1039/D6SC00182C" target="_blank" rel="noreferrer" aria-label="Read Chemical Science paper">Read paper <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+            <article class="publication-item" id="sensing-2026">
+              <p class="publication-meta">Infrared Physics &amp; Technology · 2026</p>
+              <h3><a href="https://doi.org/10.1016/j.infrared.2025.106349" target="_blank" rel="noreferrer">Hybrid convolutional neural network optical fiber vector curvature sensing via spectral pattern recognition</a></h3>
+              <p class="publication-authors">Xiaopeng Han, <strong>Junbo Niu</strong>, and co-authors.</p>
+              <div class="paper-links">
+                <span class="research-tag">Machine learning</span>
+                <a href="https://doi.org/10.1016/j.infrared.2025.106349" target="_blank" rel="noreferrer" aria-label="Read Infrared Physics and Technology paper">Read paper <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+          </div>
+        </section>
+        <section class="section year-section" id="year-2024" aria-labelledby="heading-2024">
+          <h2 id="heading-2024">2024</h2>
+          <div class="publication-list">
+                        <article class="publication-item" id="vein-structures-2024">
+              <p class="publication-meta">Advanced Intelligent Systems · 2024</p>
+              <h3><a href="https://doi.org/10.1002/aisy.202400260" target="_blank" rel="noreferrer">Employing Deep Neural Networks and High-Throughput Computing for the Recognition and Prediction of Vein-Like Structures</a></h3>
+              <p class="publication-authors"><strong>Junbo Niu</strong>, Zhiyu Chi, Feilong Wang, Bin Miao, Jiaxu Guo, ZhiFeng Ding, Yin He, and XinXin Ma.</p>
+              <div class="paper-links">
+                <span class="research-tag">Materials informatics</span>
+                <a href="https://doi.org/10.1002/aisy.202400260" target="_blank" rel="noreferrer" aria-label="Read Advanced Intelligent Systems paper">Read paper <span aria-hidden="true">↗</span></a>
+              </div>
+            </article>
+<article class="publication-item">
               <p class="publication-meta">Materials · 2024</p>
               <h3>
                 Leveraging Deep Neural Networks for Estimating Vickers Hardness
                 from Nanoindentation Hardness
               </h3>
               <p class="publication-authors">
-                Niu, J.; Miao, B.; Guo, J.; Ding, Z.; He, Y.; Chi, Z.; Wang, F.;
-                Ma, X.
+                <strong>Junbo Niu</strong>, Bin Miao, Jiaxu Guo, Zhifeng Ding, Yin He, Zhiyu Chi,
+                Feilong Wang, and Xinxin Ma.
               </p>
               <div class="paper-links">
                 <a
@@ -109,6 +155,11 @@
                 >
               </div>
             </article>
+          </div>
+        </section>
+        <section class="section year-section" id="year-2023" aria-labelledby="heading-2023">
+          <h2 id="heading-2023">2023</h2>
+          <div class="publication-list">
             <article class="publication-item">
               <p class="publication-meta">Applied Surface Science · 2023</p>
               <h3>
@@ -116,7 +167,7 @@
                 (VC and Mo2C) in 8Cr4Mo4V steel
               </h3>
               <p class="publication-authors">
-                Niu, J.; Qureshi, M. W.; Ding, Z.; Ma, X.; He, Y.
+                <strong>J. B. Niu</strong>, Muhammad Waqas Qureshi, Z. F. Ding, X. X. Ma, and Y. He.
               </p>
               <div class="paper-links">
                 <a
@@ -127,6 +178,11 @@
                 >
               </div>
             </article>
+          </div>
+        </section>
+        <section class="section year-section" id="year-2022" aria-labelledby="heading-2022">
+          <h2 id="heading-2022">2022</h2>
+          <div class="publication-list">
             <article class="publication-item">
               <p class="publication-meta">Materialia · 2022</p>
               <h3>
@@ -134,7 +190,7 @@
                 Layers during Plasma Nitriding of 8Cr4Mo4V Steel
               </h3>
               <p class="publication-authors">
-                Niu, J. B.; Zhang, X. H.; Ma, X. X.; Liu, Y.; Wang, L. Q.; Wu,
+                <strong>Niu, J. B.</strong>; Zhang, X. H.; Ma, X. X.; Liu, Y.; Wang, L. Q.; Wu,
                 T. B.
               </p>
               <div class="paper-links">
@@ -150,7 +206,7 @@
         </section>
 
         <section class="section">
-          <p class="section-tag">Journal Commentary</p>
+          <p class="section-tag" id="commentary">Journal Commentary</p>
           <h2>Research Highlight</h2>
           <div class="publication-list">
             <article class="publication-item">
@@ -194,7 +250,7 @@
               >Google Scholar</a
             >
             <a
-              href="https://www.researchgate.net/profile/Niu-Junbo-2?ev=hdr_xprf"
+              href="https://www.researchgate.net/profile/Niu-Junbo-2"
               target="_blank"
               rel="noreferrer"
               >ResearchGate</a
