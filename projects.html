@@ -8,6 +8,11 @@
       name="description"
       content="Selected research projects by Junbo Niu in AI for materials discovery, battery materials, and computational modeling."
     />
+    <link rel="canonical" href="https://simonkingcat.github.io/projects.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Junbo Niu · Research" />
+    <meta property="og:url" content="https://simonkingcat.github.io/projects.html" />
+    <meta property="og:description" content="AI for materials discovery, battery materials, and computational modeling at NTU." />
     <link rel="icon" href="favicon.svg" type="image/svg+xml" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -15,21 +20,18 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20261009" />
   </head>
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
     <div class="page-shell">
-      <nav class="topbar">
-        <a href="index.html" class="brand" aria-label="Junbo Niu home">JN</a>
+      <nav class="topbar" aria-label="Main navigation">
+        <a href="index.html" class="brand" aria-label="Junbo Niu home">JN<span class="brand-dot">.</span></a>
         <div class="topbar-links">
-          <a href="index.html">Home</a>
+          <a href="index.html">About</a>
+          <a href="projects.html" aria-current="page">Research</a>
           <a href="publications.html">Publications</a>
-          <a
-            href="https://scholar.google.com/citations?user=FhTkiQkAAAAJ&hl=en"
-            target="_blank"
-            rel="noreferrer"
-            >Scholar</a
-          >
+          <a href="mailto:junbo.niu@ntu.edu.sg">Contact <span aria-hidden="true">↗</span></a>
         </div>
       </nav>
 
@@ -44,10 +46,37 @@
         </div>
       </header>
 
-      <main>
+      <main id="main">
         <section class="section">
           <p class="section-tag">Featured</p>
           <div class="project-list">
+            <article class="project-item">
+              <p class="publication-meta">Published research · Thermoelectrics</p>
+              <h3>Flexible Bi<sub>2</sub>Te<sub>3</sub> and atomistic modeling</h3>
+              <p>Computational workflows and atomistic simulations associated with our Nature Communications paper on flexible thermoelectric generators.</p>
+              <div class="paper-links">
+                <a href="https://doi.org/10.1038/s41467-026-77574-1" target="_blank" rel="noreferrer">Read paper ↗</a>
+                <a href="https://github.com/SimonkingCat/Bi2Te3-deepmd-workflow" target="_blank" rel="noreferrer">Code &amp; workflow ↗</a>
+              </div>
+            </article>
+            <article class="project-item">
+              <p class="publication-meta">Published research · Battery electrolytes</p>
+              <h3>Electrolytes and interfaces for Zn–I<sub>2</sub> batteries</h3>
+              <p>Collaborative studies of eutectic electrolytes and molecular additives for reversible four-electron iodine chemistry and stable zinc deposition.</p>
+              <div class="paper-links">
+                <a href="https://doi.org/10.1002/adfm.75378" target="_blank" rel="noreferrer">Advanced Functional Materials ↗</a>
+                <a href="https://doi.org/10.1039/D6SC00182C" target="_blank" rel="noreferrer">Chemical Science ↗</a>
+              </div>
+            </article>
+            <article class="project-item">
+              <p class="publication-meta">Published research · Materials informatics</p>
+              <h3>Learning and predicting vein-like microstructures</h3>
+              <p>Neural networks combined with high-throughput thermodynamic calculations to recognize and predict microstructures in nitrided steel.</p>
+              <div class="paper-links">
+                <a href="https://doi.org/10.1002/aisy.202400260" target="_blank" rel="noreferrer">Read paper ↗</a>
+                <a href="https://github.com/SimonkingCat/Employing-Deep-Neural-Networks-and-High-Throughput-Computing-for-the-Recognition-and-Prediction-of-V" target="_blank" rel="noreferrer">Code &amp; data ↗</a>
+              </div>
+            </article>
             <article class="project-item">
               <p class="publication-meta">Energy Materials</p>
               <h3>AI-Driven Discovery for Solid-State Na-S Batteries</h3>
